@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Aplication</string>
+    <string name="perfil">Perfil</string>
+    <string name="sair">Sair</string>
+    <string name="carrinho">carrinho</string>
+    <string name="primeiro_acesso">Primeiro Acesso</string>
+    <string name="login">Login</string>
+    <string name="usuario">Usuario:</string>
+    <string name="senha">Senha:</string>
+</resources>
