@@ -18,4 +18,8 @@ public class MainActivity extends AppCompatActivity {
         startActivity(chamar);
 
     }
+    public  void cadastro(View view){
+        Intent chamar = new Intent(this, cadastro.class);
+        startActivity(chamar);
+    }
 }
