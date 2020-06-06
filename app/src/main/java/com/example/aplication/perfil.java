@@ -1,21 +1,21 @@
 package com.example.aplication;
 
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class MainActivity extends AppCompatActivity {
+public class perfil extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_perfil);
     }
-    public void teste(View view){
-        Intent chamar = new Intent(this, perfil.class);
-        startActivity(chamar);
 
+    public void sair(View view){
+       finish();
+       System.exit(0);
     }
 }
