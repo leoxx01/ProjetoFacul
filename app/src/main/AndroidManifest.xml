@@ -9,9 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".princiapl"></activity>
+        <activity android:name=".buy"></activity>
+        <activity android:name=".princiapl" />
         <activity android:name=".perfil" />
-        <activity android:name=".teste" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

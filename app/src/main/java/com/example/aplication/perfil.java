@@ -3,6 +3,7 @@ package com.example.aplication;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
@@ -17,5 +18,9 @@ public class perfil extends AppCompatActivity {
     public void sair(View view){
        finish();
        System.exit(0);
+    }
+    public void buyitem(View view){
+        Intent chamar = new Intent(this, buy.class);
+        startActivity(chamar);
     }
 }
