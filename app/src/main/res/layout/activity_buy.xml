@@ -8,14 +8,14 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="187dp"
+        android:layout_height="151dp"
         android:layout_marginTop="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.448"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ic_launcher_foreground" />
+        app:srcCompat="@drawable/download" />
 
     <Button
         android:id="@+id/button6"
@@ -29,8 +29,8 @@
 
     <TextView
         android:id="@+id/textView5"
-        android:layout_width="270dp"
-        android:layout_height="111dp"
+        android:layout_width="276dp"
+        android:layout_height="87dp"
         android:layout_marginTop="40dp"
         android:text="Template com interface inovadora , que melhora a estetica da pagina assim melhorando a experiencia de seus usuarios."
         app:layout_constraintEnd_toEndOf="parent"
@@ -55,7 +55,7 @@
         android:layout_marginTop="32dp"
         android:text="Nestre projeto foi usado bootstrap ,html,css"
         app:layout_constraintTop_toBottomOf="@+id/textView7"
-        tools:layout_editor_absoluteX="80dp" />
+        tools:layout_editor_absoluteX="65dp" />
 
     <LinearLayout
         android:id="@+id/linearLayout"
