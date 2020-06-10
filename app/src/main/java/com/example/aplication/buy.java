@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Toast;
 
 public class buy extends AppCompatActivity {
 
@@ -20,5 +21,8 @@ public class buy extends AppCompatActivity {
     public void perfilcall(View view){
         Intent chamar = new Intent(this, perfil.class);
         startActivity(chamar);
+    }
+    public void comprar(View view){
+        Toast.makeText(buy.this, "Compra Efetuado Com Sucesso", Toast.LENGTH_LONG).show();
     }
 }
